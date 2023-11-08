@@ -35,26 +35,8 @@ CStackL  CStackLConstruct(const CStackL &other){
 
     }
 
-// TODO
-    /*static CStackL NewStack;
-    NewStack.m_pTop=nullptr;
-    NewStack.m_size=other.m_size;
-    const Link *Orginal=other.m_pTop;
-    const CStackL *andra=other.m_pTop;
 
-    Link *pCopy=new Link;
-
-    (*pCopy).m_pNext=Orginal->m_pNext;
-    (*pCopy).m_data=Orginal->m_data;
-    if(NewStack.m_pTop==nullptr)
-        NewStack.m_pTop=pCopy;
-    if(Orginal->m_pNext!=nullptr)
-        CStackLConstruct();*/
-
-
-
-
-    return NewStack; // (fel,ändra)
+    return NewStack; 
 
 }
 
